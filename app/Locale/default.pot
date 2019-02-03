@@ -1,0 +1,2593 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: Controller/BankAccountsController.php:73;107;133
+msgid "Invalid bank account"
+msgstr ""
+
+#: Controller/BankAccountsController.php:89;92;111;114;138;140
+msgid "bank account"
+msgstr ""
+
+#: Controller/BankAccountsController.php:89
+#: Controller/BankFlowsController.php:87
+#: Controller/ClientsController.php:97
+#: Controller/ConvenienceDistribuitionsController.php:87
+#: Controller/ConveniencesController.php:84
+#: Controller/DocumentsController.php:178
+#: Controller/EmployeesController.php:114
+#: Controller/GroupsController.php:84;115
+#: Controller/PositionsController.php:84
+#: Controller/RatesController.php:86
+#: Controller/SellersController.php:113
+#: Controller/TableRatesController.php:84
+#: Controller/UsersController.php:99
+msgid "has been saved."
+msgstr ""
+
+#: Controller/BankAccountsController.php:92
+#: Controller/BankFlowsController.php:90
+#: Controller/ClientsController.php:100
+#: Controller/ConvenienceDistribuitionsController.php:90
+#: Controller/ConveniencesController.php:87
+#: Controller/DocumentsController.php:183
+#: Controller/EmployeesController.php:117;120
+#: Controller/GroupsController.php:92;123
+#: Controller/PositionsController.php:87
+#: Controller/RatesController.php:89
+#: Controller/SellersController.php:116;119
+#: Controller/TableRatesController.php:87
+#: Controller/UsersController.php:102
+msgid "could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/BankAccountsController.php:111
+#: Controller/BankFlowsController.php:111
+#: Controller/ClientsController.php:123
+#: Controller/ConvenienceDistribuitionsController.php:111
+#: Controller/ConveniencesController.php:105
+#: Controller/DocumentsController.php:213
+#: Controller/EmployeesController.php:145
+#: Controller/PositionsController.php:105
+#: Controller/RatesController.php:109
+#: Controller/SellersController.php:143
+#: Controller/TableRatesController.php:105
+#: Controller/UsersController.php:122
+msgid "has been edited."
+msgstr ""
+
+#: Controller/BankAccountsController.php:114
+#: Controller/BankFlowsController.php:114
+#: Controller/ClientsController.php:126
+#: Controller/ConvenienceDistribuitionsController.php:114
+#: Controller/ConveniencesController.php:108
+#: Controller/DocumentsController.php:216
+#: Controller/EmployeesController.php:148
+#: Controller/PositionsController.php:108
+#: Controller/RatesController.php:112
+#: Controller/SellersController.php:146
+#: Controller/TableRatesController.php:108
+#: Controller/UsersController.php:125
+msgid "could not be edited. Please, try again."
+msgstr ""
+
+#: Controller/BankAccountsController.php:138
+#: Controller/BankFlowsController.php:140
+#: Controller/ClientsController.php:154
+#: Controller/ConvenienceDistribuitionsController.php:140
+#: Controller/ConveniencesController.php:131
+#: Controller/DocumentsController.php:247
+#: Controller/EmployeesController.php:178
+#: Controller/GroupsController.php:151
+#: Controller/PositionsController.php:131
+#: Controller/RatesController.php:137
+#: Controller/SellersController.php:175
+#: Controller/TableRatesController.php:131
+#: Controller/UsersController.php:150
+msgid "has been deleted."
+msgstr ""
+
+#: Controller/BankAccountsController.php:140
+#: Controller/BankFlowsController.php:142
+#: Controller/ClientsController.php:156
+#: Controller/ConvenienceDistribuitionsController.php:142
+#: Controller/ConveniencesController.php:133
+#: Controller/DocumentsController.php:249
+#: Controller/EmployeesController.php:180
+#: Controller/GroupsController.php:158
+#: Controller/PositionsController.php:133
+#: Controller/RatesController.php:139
+#: Controller/SellersController.php:177
+#: Controller/TableRatesController.php:133
+#: Controller/UsersController.php:152
+msgid "could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/BankFlowsController.php:72;107;135
+msgid "Invalid bank flow"
+msgstr ""
+
+#: Controller/BankFlowsController.php:87;90;111;114;140;142
+msgid "bank flow"
+msgstr ""
+
+#: Controller/ClientsController.php:75;117;149
+msgid "Invalid client"
+msgstr ""
+
+#: Controller/ClientsController.php:97;100;123;126;154;156
+msgid "client"
+msgstr ""
+
+#: Controller/ConvenienceDistribuitionsController.php:72;107;135
+msgid "Invalid convenience distribuition"
+msgstr ""
+
+#: Controller/ConvenienceDistribuitionsController.php:87;90;111;114;140;142
+msgid "convenience distribuition"
+msgstr ""
+
+#: Controller/ConveniencesController.php:69;101;126
+msgid "Invalid convenience"
+msgstr ""
+
+#: Controller/ConveniencesController.php:84;87;105;108;131;133
+msgid "convenience"
+msgstr ""
+
+#: Controller/DocumentsController.php:79;205;242;280
+msgid "Invalid document"
+msgstr ""
+
+#: Controller/DocumentsController.php:178;183;213;216;247;249;301;304;309
+msgid "document"
+msgstr ""
+
+#: Controller/DocumentsController.php:301
+msgid "has been paid."
+msgstr ""
+
+#: Controller/DocumentsController.php:304
+msgid "could not be paid. Please, try again."
+msgstr ""
+
+#: Controller/DocumentsController.php:309
+msgid "could not be paid because the value of payment is not correct. Please, try again."
+msgstr ""
+
+#: Controller/EmployeesController.php:77;139;173
+msgid "Invalid employee"
+msgstr ""
+
+#: Controller/EmployeesController.php:114;117;120;145;148;178;180
+msgid "employee"
+msgstr ""
+
+#: Controller/GroupsController.php:65;107;142
+msgid "Invalid group"
+msgstr ""
+
+#: Controller/GroupsController.php:83;91;114;122;150;157
+#: View/Elements/Flash/error.ctp:13
+#: View/Elements/Flash/success.ctp:13
+msgid "Alert!"
+msgstr ""
+
+#: Controller/GroupsController.php:84;92;115;123;151;158
+msgid "group"
+msgstr ""
+
+#: Controller/LogsController.php:66;110;147
+msgid "Invalid log"
+msgstr ""
+
+#: Controller/LogsController.php:85;118
+msgid "The log has been saved."
+msgstr ""
+
+#: Controller/LogsController.php:93;126
+msgid "The log could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/LogsController.php:156
+msgid "The log has been deleted."
+msgstr ""
+
+#: Controller/LogsController.php:163
+msgid "The log could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/PositionsController.php:69;101;126
+msgid "Invalid position"
+msgstr ""
+
+#: Controller/PositionsController.php:84;87;105;108;131;133
+msgid "position"
+msgstr ""
+
+#: Controller/RatesController.php:71;105;132
+msgid "Invalid rate"
+msgstr ""
+
+#: Controller/RatesController.php:86;89;109;112;137;139
+msgid "rate"
+msgstr ""
+
+#: Controller/SellersController.php:76;137;170
+msgid "Invalid seller"
+msgstr ""
+
+#: Controller/SellersController.php:113;116;119;143;146;175;177
+msgid "seller"
+msgstr ""
+
+#: Controller/TableRatesController.php:69;101;126
+msgid "Invalid table rate"
+msgstr ""
+
+#: Controller/TableRatesController.php:84;87;105;108;131;133
+msgid "table rate"
+msgstr ""
+
+#: Controller/UsersController.php:84;118;145
+msgid "Invalid user"
+msgstr ""
+
+#: Controller/UsersController.php:99;102;122;125;150;152
+msgid "user"
+msgstr ""
+
+#: Plugin/admin/View/Permissions/admin_index.ctp:5
+#: View/BankAccounts/index.ctp:4
+#: View/BankFlows/index.ctp:4
+#: View/Clients/index.ctp:4
+#: View/ConvenienceDistribuitions/index.ctp:4
+#: View/Conveniences/index.ctp:4
+#: View/Documents/index.ctp:4
+#: View/DocumentsComissions/index.ctp:4
+#: View/Employees/index.ctp:4
+#: View/Groups/index.ctp:4
+#: View/Logs/index.ctp:4
+#: View/PaymentMethods/index.ctp:4
+#: View/Positions/index.ctp:4
+#: View/Rates/index.ctp:4
+#: View/Sellers/index.ctp:4
+#: View/TableRates/index.ctp:4
+#: View/Users/index.ctp:4
+msgid "All Registered"
+msgstr ""
+
+#: Plugin/admin/View/Permissions/admin_index.ctp:11
+msgid "Sincronize"
+msgstr ""
+
+#: Plugin/admin/View/Users/admin_login.ctp:25
+msgid "Enter your username and password to access the system."
+msgstr ""
+
+#: View/BankAccounts/add.ctp:3;7
+#: View/BankAccounts/edit.ctp:3;7
+#: View/BankAccounts/index.ctp:3;7
+#: View/BankAccounts/view.ctp:3;7
+msgid "Bank Accounts"
+msgstr ""
+
+#: View/BankAccounts/add.ctp:4;8
+#: View/BankAccounts/index.ctp:16
+#: View/BankAccounts/view.ctp:63;90
+#: View/BankFlows/add.ctp:4;8
+#: View/BankFlows/index.ctp:16
+#: View/Clients/add.ctp:8;12
+#: View/Clients/index.ctp:16
+#: View/Clients/view.ctp:121;171
+#: View/ConvenienceDistribuitions/add.ctp:4;8
+#: View/ConvenienceDistribuitions/index.ctp:16
+#: View/Conveniences/add.ctp:4;8
+#: View/Conveniences/index.ctp:16
+#: View/Conveniences/view.ctp:55;82
+#: View/Documents/add.ctp:8;12
+#: View/Documents/index.ctp:16
+#: View/Documents/view.ctp:109;143
+#: View/Employees/add.ctp:4;8
+#: View/Employees/index.ctp:16
+#: View/Employees/view.ctp:78;105;139;166;200;231;265;324
+#: View/Groups/add.ctp:4
+#: View/Groups/index.ctp:16
+#: View/PaymentMethods/add.ctp:4;8
+#: View/PaymentMethods/index.ctp:16
+#: View/PaymentMethods/view.ctp:55;98
+#: View/Positions/add.ctp:4;8
+#: View/Positions/index.ctp:16
+#: View/Positions/view.ctp:63;94
+#: View/Rates/add.ctp:4;8
+#: View/Rates/index.ctp:16
+#: View/Sellers/add.ctp:4;8
+#: View/Sellers/index.ctp:16
+#: View/Sellers/view.ctp:133;182;216;243;277;320
+#: View/TableRates/add.ctp:4;8
+#: View/TableRates/index.ctp:16
+#: View/Users/add.ctp:4;8
+#: View/Users/index.ctp:16
+#: Plugin/admin/View/Users/admin_index.ctp:4
+msgid "Add"
+msgstr ""
+
+#: View/BankAccounts/add.ctp:4;8
+#: View/BankAccounts/edit.ctp:4;8
+#: View/BankAccounts/view.ctp:4;8;26;42
+#: View/BankFlows/view.ctp:49
+#: View/Documents/index.ctp:180
+#: View/Elements/navbar-left.ctp:206
+#: View/Sellers/view.ctp:100
+msgid "Bank Account"
+msgstr ""
+
+#: View/BankAccounts/add.ctp:6
+#: View/BankAccounts/edit.ctp:6
+#: View/BankAccounts/index.ctp:6
+#: View/BankAccounts/view.ctp:6
+#: View/BankFlows/add.ctp:6
+#: View/BankFlows/edit.ctp:6
+#: View/BankFlows/index.ctp:6
+#: View/BankFlows/view.ctp:6
+#: View/Clients/add.ctp:10
+#: View/Clients/edit.ctp:10
+#: View/Clients/index.ctp:6
+#: View/Clients/view.ctp:6
+#: View/ConvenienceDistribuitions/add.ctp:6
+#: View/ConvenienceDistribuitions/edit.ctp:6
+#: View/ConvenienceDistribuitions/index.ctp:6
+#: View/ConvenienceDistribuitions/view.ctp:6
+#: View/Conveniences/add.ctp:6
+#: View/Conveniences/edit.ctp:6
+#: View/Conveniences/index.ctp:6
+#: View/Conveniences/view.ctp:6
+#: View/Documents/add.ctp:10
+#: View/Documents/edit.ctp:10
+#: View/Documents/index.ctp:6
+#: View/Documents/view.ctp:6
+#: View/DocumentsComissions/index.ctp:6
+#: View/Employees/add.ctp:6
+#: View/Employees/edit.ctp:6
+#: View/Employees/index.ctp:6
+#: View/Employees/view.ctp:6
+#: View/Groups/add.ctp:6
+#: View/Groups/edit.ctp:6
+#: View/Groups/index.ctp:6
+#: View/Groups/view.ctp:6
+#: View/Logs/index.ctp:7
+#: View/PaymentMethods/add.ctp:6
+#: View/PaymentMethods/edit.ctp:6
+#: View/PaymentMethods/index.ctp:6
+#: View/PaymentMethods/view.ctp:6
+#: View/Positions/add.ctp:6
+#: View/Positions/edit.ctp:6
+#: View/Positions/index.ctp:6
+#: View/Positions/view.ctp:6
+#: View/Rates/add.ctp:6
+#: View/Rates/edit.ctp:6
+#: View/Rates/index.ctp:6
+#: View/Rates/view.ctp:6
+#: View/Sellers/add.ctp:6
+#: View/Sellers/edit.ctp:6
+#: View/Sellers/index.ctp:6
+#: View/Sellers/view.ctp:6
+#: View/TableRates/add.ctp:6
+#: View/TableRates/edit.ctp:6
+#: View/TableRates/index.ctp:6
+#: View/TableRates/view.ctp:6
+#: View/Users/add.ctp:6
+#: View/Users/edit.ctp:6
+#: View/Users/index.ctp:6
+#: View/Users/view.ctp:6
+msgid " Home"
+msgstr ""
+
+#: View/BankAccounts/add.ctp:17;18
+#: View/BankAccounts/edit.ctp:17;18
+#: View/BankAccounts/view.ctp:14
+#: View/BankFlows/add.ctp:16
+#: View/BankFlows/edit.ctp:16
+#: View/BankFlows/view.ctp:14
+#: View/Clients/add.ctp:21;22
+#: View/Clients/edit.ctp:21;22
+#: View/Clients/view.ctp:15;16
+#: View/ConvenienceDistribuitions/add.ctp:16
+#: View/ConvenienceDistribuitions/edit.ctp:16
+#: View/ConvenienceDistribuitions/view.ctp:14
+#: View/Conveniences/add.ctp:17;18
+#: View/Conveniences/edit.ctp:17;18
+#: View/Conveniences/view.ctp:14
+#: View/Documents/add.ctp:21;22
+#: View/Documents/edit.ctp:21;22
+#: View/Documents/view.ctp:15;16
+#: View/Employees/add.ctp:17;18
+#: View/Employees/edit.ctp:17;18
+#: View/Employees/view.ctp:14
+#: View/Groups/add.ctp:16
+#: View/Groups/edit.ctp:16
+#: View/Groups/view.ctp:17
+#: View/PaymentMethods/add.ctp:16
+#: View/PaymentMethods/edit.ctp:16
+#: View/PaymentMethods/view.ctp:14
+#: View/Positions/add.ctp:17;18
+#: View/Positions/edit.ctp:17;18
+#: View/Positions/view.ctp:14
+#: View/Rates/add.ctp:17;18
+#: View/Rates/edit.ctp:16
+#: View/Rates/view.ctp:14
+#: View/Sellers/add.ctp:17;18
+#: View/Sellers/edit.ctp:17;18
+#: View/Sellers/view.ctp:14
+#: View/TableRates/add.ctp:16
+#: View/TableRates/edit.ctp:16
+#: View/TableRates/view.ctp:14
+#: View/Users/add.ctp:16
+#: View/Users/edit.ctp:16
+#: View/Users/view.ctp:14
+msgid "Back"
+msgstr ""
+
+#: View/BankAccounts/add.ctp:22;23
+#: View/BankAccounts/edit.ctp:22;23
+#: View/BankAccounts/index.ctp:15
+#: View/BankAccounts/view.ctp:15
+#: View/BankFlows/add.ctp:17
+#: View/BankFlows/edit.ctp:17
+#: View/BankFlows/index.ctp:15
+#: View/BankFlows/view.ctp:15
+#: View/Clients/add.ctp:26;27
+#: View/Clients/edit.ctp:26;27
+#: View/Clients/index.ctp:15
+#: View/Clients/view.ctp:19
+#: View/ConvenienceDistribuitions/add.ctp:17
+#: View/ConvenienceDistribuitions/edit.ctp:17
+#: View/ConvenienceDistribuitions/index.ctp:15
+#: View/ConvenienceDistribuitions/view.ctp:15
+#: View/Conveniences/add.ctp:22;23
+#: View/Conveniences/edit.ctp:22;23
+#: View/Conveniences/index.ctp:15
+#: View/Conveniences/view.ctp:15
+#: View/Documents/add.ctp:26;27
+#: View/Documents/edit.ctp:26;27
+#: View/Documents/index.ctp:15
+#: View/Documents/view.ctp:19
+#: View/DocumentsComissions/index.ctp:19
+#: View/Employees/add.ctp:22;23
+#: View/Employees/edit.ctp:22;23
+#: View/Employees/index.ctp:15
+#: View/Employees/view.ctp:15
+#: View/Groups/add.ctp:17
+#: View/Groups/edit.ctp:17
+#: View/Groups/index.ctp:15
+#: View/Groups/view.ctp:18
+#: View/PaymentMethods/add.ctp:17
+#: View/PaymentMethods/edit.ctp:17
+#: View/PaymentMethods/index.ctp:15
+#: View/PaymentMethods/view.ctp:15
+#: View/Positions/add.ctp:22;23
+#: View/Positions/edit.ctp:22;23
+#: View/Positions/index.ctp:15
+#: View/Positions/view.ctp:15
+#: View/Rates/add.ctp:22;23
+#: View/Rates/edit.ctp:17
+#: View/Rates/index.ctp:15
+#: View/Rates/view.ctp:15
+#: View/Sellers/add.ctp:22;23
+#: View/Sellers/edit.ctp:22;23
+#: View/Sellers/index.ctp:15
+#: View/Sellers/view.ctp:15
+#: View/TableRates/add.ctp:17
+#: View/TableRates/edit.ctp:17
+#: View/TableRates/index.ctp:15
+#: View/TableRates/view.ctp:15
+#: View/Users/add.ctp:17
+#: View/Users/edit.ctp:17
+#: View/Users/index.ctp:15
+#: View/Users/view.ctp:15
+msgid "Refresh"
+msgstr ""
+
+#: View/BankAccounts/add.ctp:31
+#: View/BankAccounts/edit.ctp:32
+#: View/BankAccounts/index.ctp:38;54
+#: View/BankAccounts/view.ctp:81
+#: View/BankFlows/add.ctp:23
+#: View/BankFlows/edit.ctp:24
+#: View/BankFlows/index.ctp:37;58
+#: View/Clients/add.ctp:57
+#: View/Clients/edit.ctp:56
+#: View/Clients/index.ctp:50;79
+#: View/Clients/view.ctp:154
+#: View/ConvenienceDistribuitions/add.ctp:23
+#: View/ConvenienceDistribuitions/edit.ctp:24
+#: View/ConvenienceDistribuitions/index.ctp:36;56
+#: View/Conveniences/add.ctp:31
+#: View/Conveniences/edit.ctp:32
+#: View/Conveniences/index.ctp:34;46
+#: View/Conveniences/view.ctp:73
+#: View/Documents/add.ctp:44
+#: View/Documents/edit.ctp:45
+#: View/Documents/index.ctp:60;93
+#: View/Documents/view.ctp:132
+#: View/DocumentsComissions/index.ctp:43;69
+#: View/Employees/add.ctp:31
+#: View/Employees/edit.ctp:32
+#: View/Employees/index.ctp:39;65
+#: View/Employees/view.ctp:96;157;220;299
+#: View/Groups/add.ctp:25
+#: View/Groups/edit.ctp:26
+#: View/Groups/index.ctp:36;46
+#: View/Groups/view.ctp:92
+#: View/PaymentMethods/add.ctp:25
+#: View/PaymentMethods/edit.ctp:26
+#: View/PaymentMethods/index.ctp:34;43
+#: View/PaymentMethods/view.ctp:84
+#: View/Positions/add.ctp:32
+#: View/Positions/edit.ctp:33
+#: View/Positions/index.ctp:37;51
+#: View/Positions/view.ctp:83
+#: View/Rates/add.ctp:31
+#: View/Rates/edit.ctp:24
+#: View/Rates/index.ctp:36;53
+#: View/Sellers/add.ctp:31
+#: View/Sellers/edit.ctp:32
+#: View/Sellers/index.ctp:46;76
+#: View/Sellers/view.ctp:162;234;305
+#: View/TableRates/add.ctp:23
+#: View/TableRates/edit.ctp:24
+#: View/TableRates/index.ctp:33;42
+#: View/Users/add.ctp:32
+#: View/Users/edit.ctp:33
+#: View/Users/index.ctp:48;67
+#: Plugin/admin/View/Users/admin_add.ctp:76
+#: Plugin/admin/View/Users/admin_edit.ctp:80
+msgid "Active"
+msgstr ""
+
+#: View/BankAccounts/add.ctp:31
+#: View/BankAccounts/edit.ctp:32
+#: View/BankAccounts/index.ctp:38;56
+#: View/BankAccounts/view.ctp:83
+#: View/BankFlows/add.ctp:23
+#: View/BankFlows/edit.ctp:24
+#: View/BankFlows/index.ctp:37;60
+#: View/Clients/add.ctp:57
+#: View/Clients/edit.ctp:56
+#: View/Clients/index.ctp:50;81
+#: View/Clients/view.ctp:156
+#: View/ConvenienceDistribuitions/add.ctp:23
+#: View/ConvenienceDistribuitions/edit.ctp:24
+#: View/ConvenienceDistribuitions/index.ctp:36;58
+#: View/Conveniences/add.ctp:31
+#: View/Conveniences/edit.ctp:32
+#: View/Conveniences/index.ctp:34;48
+#: View/Conveniences/view.ctp:75
+#: View/Documents/add.ctp:44
+#: View/Documents/edit.ctp:45
+#: View/Documents/index.ctp:60;95
+#: View/Documents/view.ctp:134
+#: View/DocumentsComissions/index.ctp:43;71
+#: View/Employees/add.ctp:31
+#: View/Employees/edit.ctp:32
+#: View/Employees/index.ctp:39;67
+#: View/Employees/view.ctp:98;159;222;301
+#: View/Groups/add.ctp:25
+#: View/Groups/edit.ctp:26
+#: View/Groups/index.ctp:36;48
+#: View/Groups/view.ctp:94
+#: View/PaymentMethods/add.ctp:25
+#: View/PaymentMethods/edit.ctp:26
+#: View/PaymentMethods/index.ctp:34;45
+#: View/PaymentMethods/view.ctp:86
+#: View/Positions/add.ctp:32
+#: View/Positions/edit.ctp:33
+#: View/Positions/index.ctp:37;53
+#: View/Positions/view.ctp:85
+#: View/Rates/add.ctp:31
+#: View/Rates/edit.ctp:24
+#: View/Rates/index.ctp:36;55
+#: View/Sellers/add.ctp:31
+#: View/Sellers/edit.ctp:32
+#: View/Sellers/index.ctp:46;78
+#: View/Sellers/view.ctp:164;236;307
+#: View/TableRates/add.ctp:23
+#: View/TableRates/edit.ctp:24
+#: View/TableRates/index.ctp:33;44
+#: View/Users/add.ctp:32
+#: View/Users/edit.ctp:33
+#: View/Users/index.ctp:48;69
+msgid "Inactive"
+msgstr ""
+
+#: View/BankAccounts/add.ctp:33
+#: View/BankAccounts/edit.ctp:34
+#: View/BankAccounts/index.ctp:25;40
+#: View/BankAccounts/view.ctp:70
+#: View/BankFlows/add.ctp:24
+#: View/BankFlows/edit.ctp:25
+#: View/BankFlows/index.ctp:25;39
+#: View/Clients/add.ctp:61
+#: View/Clients/edit.ctp:58
+#: View/Clients/index.ctp:25;52
+#: View/Clients/view.ctp:135
+#: View/ConvenienceDistribuitions/add.ctp:24
+#: View/ConvenienceDistribuitions/edit.ctp:25
+#: View/ConvenienceDistribuitions/index.ctp:25;38
+#: View/Conveniences/add.ctp:33
+#: View/Conveniences/edit.ctp:34
+#: View/Conveniences/index.ctp:25;36
+#: View/Conveniences/view.ctp:62
+#: View/Documents/add.ctp:46
+#: View/Documents/edit.ctp:47
+#: View/Documents/index.ctp:28;62
+#: View/Documents/view.ctp:121
+#: View/DocumentsComissions/index.ctp:29;45
+#: View/Employees/add.ctp:33
+#: View/Employees/edit.ctp:34
+#: View/Employees/index.ctp:25;41
+#: View/Employees/view.ctp:85;146;207;272
+#: View/Groups/add.ctp:26
+#: View/Groups/edit.ctp:27
+#: View/Groups/index.ctp:26;37
+#: View/Groups/view.ctp:77
+#: View/PaymentMethods/add.ctp:26
+#: View/PaymentMethods/edit.ctp:27
+#: View/PaymentMethods/index.ctp:25;35
+#: View/PaymentMethods/view.ctp:65
+#: View/Positions/add.ctp:34
+#: View/Positions/edit.ctp:35
+#: View/Positions/index.ctp:26;39
+#: View/Positions/view.ctp:70
+#: View/Rates/add.ctp:33
+#: View/Rates/edit.ctp:25
+#: View/Rates/index.ctp:25;38
+#: View/Sellers/add.ctp:33
+#: View/Sellers/edit.ctp:34
+#: View/Sellers/index.ctp:25;48
+#: View/Sellers/view.ctp:140;223;286
+#: View/TableRates/add.ctp:24
+#: View/TableRates/edit.ctp:25
+#: View/TableRates/index.ctp:24;34
+#: View/Users/add.ctp:33
+#: View/Users/edit.ctp:34
+#: View/Users/index.ctp:31;50
+msgid "active"
+msgstr ""
+
+#: View/BankAccounts/add.ctp:36
+#: View/BankAccounts/edit.ctp:37
+#: View/BankAccounts/index.ctp:26;43
+#: View/Clients/add.ctp:36
+#: View/Clients/edit.ctp:36
+#: View/Clients/index.ctp:26;55
+#: View/Clients/view.ctp:134
+#: View/Documents/add.ctp:42
+#: View/Documents/edit.ctp:43
+#: View/Documents/index.ctp:27;59
+#: View/Employees/add.ctp:36
+#: View/Employees/edit.ctp:37
+#: View/Employees/index.ctp:26;44
+#: View/Employees/view.ctp:208;273
+#: View/Groups/add.ctp:23
+#: View/Groups/edit.ctp:24
+#: View/Groups/index.ctp:24;34
+#: View/Groups/view.ctp:74
+#: View/PaymentMethods/add.ctp:23
+#: View/PaymentMethods/edit.ctp:24
+#: View/PaymentMethods/index.ctp:24;33
+#: View/PaymentMethods/view.ctp:64
+#: View/Positions/add.ctp:31
+#: View/Positions/edit.ctp:32
+#: View/Positions/index.ctp:25;36
+#: View/Positions/view.ctp:71
+#: View/Sellers/add.ctp:36
+#: View/Sellers/edit.ctp:37
+#: View/Sellers/index.ctp:26;51
+#: View/Sellers/view.ctp:141;285
+#: View/TableRates/add.ctp:26
+#: View/TableRates/edit.ctp:27
+#: View/TableRates/index.ctp:25;35
+#: View/Users/add.ctp:29
+#: View/Users/edit.ctp:30
+#: View/Users/index.ctp:28;45
+msgid "name"
+msgstr ""
+
+#: View/BankAccounts/add.ctp:37
+#: View/BankAccounts/edit.ctp:38
+#: View/BankAccounts/index.ctp:27;44
+#: View/Employees/view.ctp:286
+#: View/Sellers/add.ctp:53
+#: View/Sellers/edit.ctp:54
+#: View/Sellers/index.ctp:33;61
+msgid "bank_account"
+msgstr ""
+
+#: View/BankAccounts/add.ctp:38
+#: View/BankAccounts/edit.ctp:39
+#: View/BankAccounts/index.ctp:28;45
+#: View/Employees/view.ctp:287
+#: View/Sellers/add.ctp:54
+#: View/Sellers/edit.ctp:55
+#: View/Sellers/index.ctp:34;62
+msgid "bank_agency"
+msgstr ""
+
+#: View/BankAccounts/add.ctp:39
+#: View/BankAccounts/edit.ctp:40
+#: View/BankAccounts/index.ctp:29;46
+#: View/Employees/view.ctp:288
+#: View/Sellers/add.ctp:55
+#: View/Sellers/edit.ctp:56
+#: View/Sellers/index.ctp:35;63
+msgid "bank_type"
+msgstr ""
+
+#: View/BankAccounts/add.ctp:48;49;50
+#: View/BankAccounts/edit.ctp:49;50;51
+#: View/BankFlows/add.ctp:41
+#: View/BankFlows/edit.ctp:42
+#: View/Clients/add.ctp:70;71;72
+#: View/Clients/edit.ctp:67;68;69
+#: View/ConvenienceDistribuitions/add.ctp:40
+#: View/ConvenienceDistribuitions/edit.ctp:41
+#: View/Conveniences/add.ctp:45;46;47
+#: View/Conveniences/edit.ctp:46;47;48
+#: View/Documents/add.ctp:73;74;75
+#: View/Documents/edit.ctp:75;76;77
+#: View/Documents/index.ctp:194
+#: View/DocumentsComissions/index.ctp:162
+#: View/Employees/add.ctp:59;60;61
+#: View/Employees/edit.ctp:59;60;61
+#: View/PaymentMethods/add.ctp:35
+#: View/PaymentMethods/edit.ctp:36
+#: View/Positions/add.ctp:47;48;49
+#: View/Positions/edit.ctp:48;49;50
+#: View/Rates/add.ctp:50;51;52
+#: View/Rates/edit.ctp:39
+#: View/Sellers/add.ctp:70;71;72
+#: View/Sellers/edit.ctp:71;72;73
+#: View/TableRates/add.ctp:34
+#: View/TableRates/edit.ctp:35
+#: View/Users/add.ctp:42
+#: View/Users/edit.ctp:43
+msgid "Confirm"
+msgstr ""
+
+#: View/BankAccounts/add.ctp:53;55
+#: View/BankAccounts/edit.ctp:54;56
+#: View/BankFlows/add.ctp:42
+#: View/BankFlows/edit.ctp:43
+#: View/Clients/add.ctp:75;77
+#: View/Clients/edit.ctp:72;74
+#: View/ConvenienceDistribuitions/add.ctp:41
+#: View/ConvenienceDistribuitions/edit.ctp:42
+#: View/Conveniences/add.ctp:50;52
+#: View/Conveniences/edit.ctp:51;53
+#: View/Documents/add.ctp:78;80
+#: View/Documents/edit.ctp:80;82
+#: View/Employees/add.ctp:64;66
+#: View/Employees/edit.ctp:64;66
+#: View/PaymentMethods/add.ctp:36
+#: View/PaymentMethods/edit.ctp:37
+#: View/Positions/add.ctp:52;54
+#: View/Positions/edit.ctp:53;55
+#: View/Rates/add.ctp:55;57
+#: View/Rates/edit.ctp:40
+#: View/Sellers/add.ctp:75;77
+#: View/Sellers/edit.ctp:76;78
+#: View/TableRates/add.ctp:35
+#: View/TableRates/edit.ctp:36
+#: View/Users/add.ctp:43
+#: View/Users/edit.ctp:44
+msgid "Cancel"
+msgstr ""
+
+#: View/BankAccounts/edit.ctp:4;8
+#: View/BankAccounts/view.ctp:16;97
+#: View/BankFlows/edit.ctp:4;8
+#: View/BankFlows/view.ctp:16
+#: View/Clients/edit.ctp:8;12
+#: View/Clients/view.ctp:23;183
+#: View/ConvenienceDistribuitions/edit.ctp:4;8
+#: View/ConvenienceDistribuitions/view.ctp:16
+#: View/Conveniences/edit.ctp:4;8
+#: View/Conveniences/view.ctp:16;89
+#: View/Documents/edit.ctp:8;12
+#: View/Documents/view.ctp:23;155
+#: View/Employees/edit.ctp:4;8
+#: View/Employees/view.ctp:16;112;173;238;331
+#: View/Groups/edit.ctp:4
+#: View/Groups/view.ctp:19
+#: View/PaymentMethods/edit.ctp:4;8
+#: View/PaymentMethods/view.ctp:16;105
+#: View/Positions/edit.ctp:4;8
+#: View/Positions/view.ctp:16;101
+#: View/Rates/edit.ctp:4;8
+#: View/Rates/view.ctp:16
+#: View/Sellers/edit.ctp:4;8
+#: View/Sellers/view.ctp:16;189;250;327
+#: View/TableRates/edit.ctp:4;8
+#: View/TableRates/view.ctp:16
+#: View/Users/edit.ctp:4;8
+#: View/Users/view.ctp:16
+#: Plugin/admin/View/Groups/admin_index.ctp:22
+#: Plugin/admin/View/Users/admin_index.ctp:45
+msgid "Edit"
+msgstr ""
+
+#: View/BankAccounts/edit.ctp:31
+#: View/BankFlows/edit.ctp:23
+#: View/Clients/edit.ctp:55
+#: View/ConvenienceDistribuitions/edit.ctp:23
+#: View/Conveniences/edit.ctp:31
+#: View/Documents/edit.ctp:35
+#: View/Employees/edit.ctp:31
+#: View/Groups/edit.ctp:23
+#: View/PaymentMethods/edit.ctp:23
+#: View/Positions/edit.ctp:31
+#: View/Rates/edit.ctp:23
+#: View/Sellers/edit.ctp:31
+#: View/TableRates/edit.ctp:23
+#: View/Users/edit.ctp:23
+msgid "id"
+msgstr ""
+
+#: View/BankAccounts/index.ctp:30
+msgid "Balance"
+msgstr ""
+
+#: View/BankAccounts/index.ctp:31
+#: View/BankAccounts/view.ctp:74;90
+#: View/BankFlows/index.ctp:30
+#: View/Clients/index.ctp:43
+#: View/Clients/view.ctp:145;169
+#: View/ConvenienceDistribuitions/index.ctp:29
+#: View/Conveniences/index.ctp:27
+#: View/Conveniences/view.ctp:66;82
+#: View/Documents/index.ctp:44
+#: View/Documents/view.ctp:125;141
+#: View/DocumentsComissions/index.ctp:36
+#: View/Employees/index.ctp:32
+#: View/Employees/view.ctp:89;105;150;166;213;231;292;324
+#: View/Groups/index.ctp:27
+#: View/Groups/view.ctp:78
+#: View/Logs/index.ctp:30
+#: View/PaymentMethods/index.ctp:26
+#: View/PaymentMethods/view.ctp:74;98
+#: View/Positions/index.ctp:29
+#: View/Positions/view.ctp:76;94
+#: View/Rates/index.ctp:29
+#: View/Sellers/index.ctp:39
+#: View/Sellers/view.ctp:155;182;227;243;296;320
+#: View/TableRates/index.ctp:26
+#: View/Users/index.ctp:32
+#: Plugin/admin/View/Groups/admin_index.ctp:13
+#: Plugin/admin/View/Users/admin_index.ctp:36
+msgid "Actions"
+msgstr ""
+
+#: View/BankAccounts/index.ctp:41
+#: View/BankFlows/index.ctp:40
+#: View/Clients/index.ctp:53
+#: View/ConvenienceDistribuitions/index.ctp:39
+#: View/Conveniences/index.ctp:37
+#: View/Documents/index.ctp:63
+#: View/DocumentsComissions/index.ctp:46
+#: View/Employees/index.ctp:42
+#: View/Groups/index.ctp:37
+#: View/PaymentMethods/index.ctp:35
+#: View/Positions/index.ctp:40
+#: View/Rates/index.ctp:39
+#: View/Sellers/index.ctp:49
+#: View/TableRates/index.ctp:34
+#: View/Users/index.ctp:51
+#: View/Users/view.ctp:53
+msgid "Status"
+msgstr ""
+
+#: View/BankAccounts/index.ctp:48
+#: View/BankFlows/index.ctp:52
+#: View/Clients/index.ctp:73
+#: View/ConvenienceDistribuitions/index.ctp:50
+#: View/Conveniences/index.ctp:40
+#: View/Documents/index.ctp:80
+#: View/DocumentsComissions/index.ctp:63
+#: View/Employees/index.ctp:59
+#: View/Groups/index.ctp:38
+#: View/Logs/index.ctp:43
+#: View/PaymentMethods/index.ctp:36
+#: View/Positions/index.ctp:44
+#: View/Rates/index.ctp:47
+#: View/Sellers/index.ctp:70
+#: View/TableRates/index.ctp:36
+#: View/Users/index.ctp:53
+msgid "Search"
+msgstr ""
+
+#: View/BankAccounts/index.ctp:73
+#: View/BankFlows/index.ctp:80
+#: View/Clients/index.ctp:109
+#: View/ConvenienceDistribuitions/index.ctp:77
+#: View/Conveniences/index.ctp:61
+#: View/Documents/index.ctp:128
+#: View/Employees/index.ctp:90
+#: View/Groups/index.ctp:58
+#: View/PaymentMethods/index.ctp:55
+#: View/Positions/index.ctp:66
+#: View/Rates/index.ctp:71
+#: View/Sellers/index.ctp:106
+#: View/TableRates/index.ctp:55
+#: View/Users/index.ctp:80
+msgid " View"
+msgstr ""
+
+#: View/BankAccounts/index.ctp:74
+#: View/BankFlows/index.ctp:81
+#: View/Clients/index.ctp:110
+#: View/ConvenienceDistribuitions/index.ctp:78
+#: View/Conveniences/index.ctp:62
+#: View/Documents/index.ctp:130
+#: View/Employees/index.ctp:91
+#: View/Groups/index.ctp:59
+#: View/PaymentMethods/index.ctp:56
+#: View/Positions/index.ctp:67
+#: View/Rates/index.ctp:72
+#: View/Sellers/index.ctp:107
+#: View/TableRates/index.ctp:56
+#: View/Users/index.ctp:81
+msgid " Edit"
+msgstr ""
+
+#: View/BankAccounts/index.ctp:75
+#: View/BankFlows/index.ctp:82
+#: View/Clients/index.ctp:111
+#: View/ConvenienceDistribuitions/index.ctp:79
+#: View/Conveniences/index.ctp:63
+#: View/Documents/index.ctp:131
+#: View/Employees/index.ctp:92
+#: View/Groups/index.ctp:60
+#: View/PaymentMethods/index.ctp:57
+#: View/Positions/index.ctp:68
+#: View/Rates/index.ctp:73
+#: View/Sellers/index.ctp:108
+#: View/TableRates/index.ctp:57
+#: View/Users/index.ctp:82
+msgid " Delete"
+msgstr ""
+
+#: View/BankAccounts/index.ctp:75
+#: View/BankAccounts/view.ctp:98
+#: View/BankFlows/index.ctp:82
+#: View/Clients/index.ctp:111
+#: View/Clients/view.ctp:185
+#: View/ConvenienceDistribuitions/index.ctp:79
+#: View/Conveniences/index.ctp:63
+#: View/Conveniences/view.ctp:90
+#: View/Documents/index.ctp:131
+#: View/Documents/view.ctp:157
+#: View/Employees/index.ctp:92
+#: View/Employees/view.ctp:113;174;239;332
+#: View/Groups/index.ctp:60
+#: View/Groups/view.ctp:106
+#: View/PaymentMethods/index.ctp:57
+#: View/PaymentMethods/view.ctp:106
+#: View/Positions/index.ctp:68
+#: View/Positions/view.ctp:102
+#: View/Rates/index.ctp:73
+#: View/Sellers/index.ctp:108
+#: View/Sellers/view.ctp:190;251;328
+#: View/TableRates/index.ctp:57
+#: View/Users/index.ctp:82
+msgid "Are you sure you want to delete the %s?"
+msgstr ""
+
+#: View/BankAccounts/index.ctp:86
+#: View/BankFlows/index.ctp:93
+#: View/Clients/index.ctp:122
+#: View/ConvenienceDistribuitions/index.ctp:90
+#: View/Conveniences/index.ctp:74
+#: View/Documents/index.ctp:144
+#: View/DocumentsComissions/index.ctp:113
+#: View/Employees/index.ctp:103
+#: View/Groups/index.ctp:71
+#: View/Logs/index.ctp:65
+#: View/PaymentMethods/index.ctp:68
+#: View/Positions/index.ctp:79
+#: View/Rates/index.ctp:84
+#: View/Sellers/index.ctp:119
+#: View/TableRates/index.ctp:68
+#: View/Users/index.ctp:93
+msgid "Page {:page} of {:pages}, showing {:current} records out of {:count} total, starting on record {:start}, ending on {:end}"
+msgstr ""
+
+#: View/BankAccounts/view.ctp:4;8;96
+#: View/BankFlows/view.ctp:4;8
+#: View/Clients/view.ctp:4;8;180
+#: View/ConvenienceDistribuitions/view.ctp:4;8
+#: View/Conveniences/view.ctp:4;8;88
+#: View/Documents/view.ctp:4;8;152
+#: View/Employees/view.ctp:4;8;111;172;237;330
+#: View/Groups/view.ctp:4
+#: View/PaymentMethods/view.ctp:4;8;104
+#: View/Positions/view.ctp:4;8;100
+#: View/Rates/view.ctp:4;8
+#: View/Sellers/view.ctp:4;8;188;249;326
+#: View/TableRates/view.ctp:4;8
+#: View/Users/view.ctp:4;8
+msgid "View"
+msgstr ""
+
+#: View/BankAccounts/view.ctp:17
+#: View/BankFlows/view.ctp:17
+#: View/Clients/view.ctp:27
+#: View/ConvenienceDistribuitions/view.ctp:17
+#: View/Conveniences/view.ctp:17
+#: View/Documents/view.ctp:27
+#: View/Employees/view.ctp:17
+#: View/Groups/view.ctp:20
+#: View/PaymentMethods/view.ctp:17
+#: View/Positions/view.ctp:17
+#: View/Rates/view.ctp:17
+#: View/Sellers/view.ctp:17
+#: View/TableRates/view.ctp:17
+#: View/Users/view.ctp:17
+#: Plugin/admin/View/Groups/admin_index.ctp:29
+#: Plugin/admin/View/Users/admin_index.ctp:52
+msgid "Delete"
+msgstr ""
+
+#: View/BankAccounts/view.ctp:20
+#: View/BankFlows/view.ctp:20
+#: View/Clients/view.ctp:30
+#: View/ConvenienceDistribuitions/view.ctp:20
+#: View/Conveniences/view.ctp:20
+#: View/Documents/view.ctp:30
+#: View/Employees/view.ctp:20
+#: View/Groups/view.ctp:23
+#: View/PaymentMethods/view.ctp:20
+#: View/Positions/view.ctp:20
+#: View/Rates/view.ctp:20
+#: View/Sellers/view.ctp:20
+#: View/TableRates/view.ctp:20
+#: View/Users/view.ctp:20
+msgid "Are you sure you want to delete # %s?"
+msgstr ""
+
+#: View/BankAccounts/view.ctp:27
+#: View/BankFlows/add.ctp:3;7
+#: View/BankFlows/edit.ctp:3;7
+#: View/BankFlows/index.ctp:3;7
+#: View/BankFlows/view.ctp:3;7
+#: View/Documents/view.ctp:37
+msgid "Bank Flows"
+msgstr ""
+
+#: View/BankAccounts/view.ctp:28
+#: View/BankFlows/view.ctp:27
+#: View/Clients/view.ctp:38
+#: View/ConvenienceDistribuitions/view.ctp:27
+#: View/Conveniences/view.ctp:28
+#: View/Documents/view.ctp:38
+#: View/Employees/view.ctp:31
+#: View/PaymentMethods/view.ctp:28
+#: View/Positions/view.ctp:28
+#: View/Rates/view.ctp:27
+#: View/Sellers/view.ctp:30
+#: View/TableRates/view.ctp:27
+#: View/Users/view.ctp:27
+msgid "Data"
+msgstr ""
+
+#: View/BankAccounts/view.ctp:34
+#: View/BankFlows/view.ctp:33
+#: View/Clients/view.ctp:44
+#: View/ConvenienceDistribuitions/view.ctp:33
+#: View/Conveniences/view.ctp:34
+#: View/Documents/view.ctp:44
+#: View/Employees/view.ctp:37
+#: View/Groups/view.ctp:46
+#: View/PaymentMethods/view.ctp:34
+#: View/Positions/view.ctp:38
+#: View/Rates/view.ctp:33
+#: View/Sellers/view.ctp:36
+#: View/TableRates/view.ctp:33
+#: View/Users/view.ctp:45
+msgid "Created"
+msgstr ""
+
+#: View/BankAccounts/view.ctp:38
+#: View/BankFlows/view.ctp:37
+#: View/Clients/view.ctp:48
+#: View/ConvenienceDistribuitions/view.ctp:37
+#: View/Conveniences/view.ctp:38
+#: View/Documents/view.ctp:48
+#: View/Employees/view.ctp:41
+#: View/Groups/view.ctp:50
+#: View/PaymentMethods/view.ctp:38
+#: View/Positions/view.ctp:42
+#: View/Rates/view.ctp:37
+#: View/Sellers/view.ctp:40
+#: View/TableRates/view.ctp:37
+#: View/Users/view.ctp:49
+msgid "Modified"
+msgstr ""
+
+#: View/BankAccounts/view.ctp:46
+#: View/Sellers/view.ctp:104
+msgid "Bank Agency"
+msgstr ""
+
+#: View/BankAccounts/view.ctp:50
+#: View/Sellers/view.ctp:108
+msgid "Bank Type"
+msgstr ""
+
+#: View/BankAccounts/view.ctp:60
+#: View/Documents/view.ctp:106
+msgid "Related Bank Flows"
+msgstr ""
+
+#: View/BankAccounts/view.ctp:71
+#: View/BankFlows/add.ctp:26
+#: View/BankFlows/edit.ctp:27
+#: View/BankFlows/index.ctp:26;42
+#: View/Documents/view.ctp:122
+#: View/DocumentsComissions/index.ctp:34;61
+#: View/Employees/view.ctp:149
+msgid "fl_type"
+msgstr ""
+
+#: View/BankAccounts/view.ctp:72
+#: View/BankFlows/add.ctp:27
+#: View/BankFlows/edit.ctp:28
+#: View/BankFlows/index.ctp:27;43
+#: View/Clients/view.ctp:138
+#: View/ConvenienceDistribuitions/add.ctp:26
+#: View/ConvenienceDistribuitions/edit.ctp:27
+#: View/ConvenienceDistribuitions/index.ctp:26;41
+#: View/Conveniences/add.ctp:36
+#: View/Conveniences/edit.ctp:37
+#: View/Conveniences/index.ctp:26;39
+#: View/Conveniences/view.ctp:63
+#: View/Documents/add.ctp:51
+#: View/Documents/edit.ctp:51
+#: View/Documents/index.ctp:32;68
+#: View/Documents/view.ctp:123
+#: View/Employees/view.ctp:86
+#: View/PaymentMethods/view.ctp:68
+#: View/Rates/add.ctp:40
+#: View/Rates/edit.ctp:30
+#: View/Rates/index.ctp:27;45
+#: View/Sellers/view.ctp:224;289
+msgid "value"
+msgstr ""
+
+#: View/BankAccounts/view.ctp:73
+#: View/BankFlows/add.ctp:31;32
+#: View/BankFlows/edit.ctp:32;33
+#: View/BankFlows/index.ctp:29;49;50
+#: View/DocumentsComissions/index.ctp:30;49;50
+#: View/Employees/view.ctp:147
+msgid "document_id"
+msgstr ""
+
+#: View/BankFlows/add.ctp:4;8
+#: View/BankFlows/edit.ctp:4;8
+#: View/BankFlows/view.ctp:4;8;26
+#: View/Elements/navbar-left.ctp:122;209
+msgid "Bank Flow"
+msgstr ""
+
+#: View/BankFlows/add.ctp:28;29
+#: View/BankFlows/edit.ctp:29;30
+#: View/BankFlows/index.ctp:28;45;46
+#: View/Documents/view.ctp:124
+msgid "bank_account_id"
+msgstr ""
+
+#: View/BankFlows/view.ctp:41
+msgid "Fl Type"
+msgstr ""
+
+#: View/BankFlows/view.ctp:45
+#: View/ConvenienceDistribuitions/view.ctp:41
+#: View/Conveniences/view.ctp:42
+#: View/Documents/view.ctp:72
+#: View/Rates/view.ctp:45
+msgid "Value"
+msgstr ""
+
+#: View/BankFlows/view.ctp:53
+#: View/Documents/add.ctp:8;12
+#: View/Documents/edit.ctp:8;12
+#: View/Documents/view.ctp:4;8;36
+msgid "Document"
+msgstr ""
+
+#: View/Clients/add.ctp:7;11
+#: View/Clients/edit.ctp:7;11
+#: View/Clients/index.ctp:3;7
+#: View/Clients/view.ctp:3;7
+#: View/Elements/navbar-left.ctp:29;80;164
+#: View/Sellers/view.ctp:27
+msgid "Clients"
+msgstr ""
+
+#: View/Clients/add.ctp:8;12
+#: View/Clients/edit.ctp:8;12
+#: View/Clients/view.ctp:4;8;36
+#: View/Documents/view.ctp:52
+msgid "Client"
+msgstr ""
+
+#: View/Clients/add.ctp:38
+#: View/Clients/edit.ctp:38
+#: View/Employees/add.ctp:38
+#: View/Employees/edit.ctp:39
+#: View/Employees/view.ctp:210;275
+#: View/Positions/view.ctp:73
+#: View/Sellers/add.ctp:38
+#: View/Sellers/edit.ctp:39
+#: View/Sellers/view.ctp:143
+msgid "date_birth"
+msgstr ""
+
+#: View/Clients/add.ctp:39
+#: View/Clients/edit.ctp:39
+#: View/Clients/index.ctp:31;58
+#: View/Employees/view.ctp:276
+#: View/Groups/view.ctp:75
+#: View/Sellers/add.ctp:39
+#: View/Sellers/edit.ctp:40
+#: View/Sellers/index.ctp:27;52
+#: View/Sellers/view.ctp:144
+#: View/Users/add.ctp:30
+#: View/Users/edit.ctp:31
+#: View/Users/index.ctp:29;46
+msgid "email"
+msgstr ""
+
+#: View/Clients/add.ctp:40
+#: View/Clients/edit.ctp:40
+#: View/Clients/index.ctp:32;59
+#: View/Employees/view.ctp:277
+#: View/Sellers/add.ctp:40
+#: View/Sellers/edit.ctp:41
+#: View/Sellers/index.ctp:28;53
+#: View/Sellers/view.ctp:145
+msgid "phone"
+msgstr ""
+
+#: View/Clients/add.ctp:41
+#: View/Clients/edit.ctp:41
+#: View/Clients/index.ctp:33;60
+#: View/Employees/view.ctp:278
+#: View/Sellers/add.ctp:41
+#: View/Sellers/edit.ctp:42
+#: View/Sellers/index.ctp:29;54
+#: View/Sellers/view.ctp:146
+msgid "phone_2"
+msgstr ""
+
+#: View/Clients/add.ctp:42
+#: View/Clients/edit.ctp:42
+#: View/Clients/index.ctp:34;61
+#: View/Employees/view.ctp:279
+#: View/Sellers/add.ctp:42
+#: View/Sellers/edit.ctp:43
+#: View/Sellers/view.ctp:147
+msgid "cep"
+msgstr ""
+
+#: View/Clients/add.ctp:43
+#: View/Clients/edit.ctp:43
+#: View/Employees/view.ctp:280
+#: View/Sellers/add.ctp:43
+#: View/Sellers/edit.ctp:44
+#: View/Sellers/view.ctp:148
+msgid "address"
+msgstr ""
+
+#: View/Clients/add.ctp:44
+#: View/Clients/edit.ctp:44
+#: View/Clients/index.ctp:36;63
+#: View/Employees/view.ctp:281
+#: View/Sellers/add.ctp:44
+#: View/Sellers/edit.ctp:45
+#: View/Sellers/view.ctp:149
+msgid "neighborhood"
+msgstr ""
+
+#: View/Clients/add.ctp:45
+#: View/Clients/edit.ctp:45
+#: View/Clients/index.ctp:37;64
+#: View/Employees/view.ctp:282
+#: View/Sellers/add.ctp:45
+#: View/Sellers/edit.ctp:46
+#: View/Sellers/view.ctp:150
+msgid "city"
+msgstr ""
+
+#: View/Clients/add.ctp:46
+#: View/Clients/edit.ctp:46
+#: View/Clients/index.ctp:38;65
+#: View/Employees/view.ctp:283
+#: View/Sellers/add.ctp:46
+#: View/Sellers/edit.ctp:47
+#: View/Sellers/view.ctp:151
+msgid "uf"
+msgstr ""
+
+#: View/Clients/add.ctp:47
+#: View/Clients/edit.ctp:47
+#: View/Documents/add.ctp:49
+#: View/Documents/edit.ctp:50
+#: View/Positions/add.ctp:37
+#: View/Positions/edit.ctp:38
+#: View/Positions/index.ctp:27;42
+#: View/Sellers/view.ctp:152
+msgid "description"
+msgstr ""
+
+#: View/Clients/add.ctp:48
+#: View/Clients/edit.ctp:48
+#: View/Clients/index.ctp:40;67
+#: View/Employees/add.ctp:37
+#: View/Employees/edit.ctp:38
+#: View/Employees/index.ctp:27;45
+#: View/Employees/view.ctp:209
+#: View/Positions/view.ctp:72
+#: View/Sellers/view.ctp:153
+msgid "cpf"
+msgstr ""
+
+#: View/Clients/add.ctp:49
+#: View/Clients/edit.ctp:49
+#: View/Sellers/view.ctp:154
+msgid "rg"
+msgstr ""
+
+#: View/Clients/add.ctp:53;54
+#: View/Clients/edit.ctp:51;52
+#: View/Clients/index.ctp:42;70;71
+#: View/Clients/view.ctp:133
+#: View/Conveniences/view.ctp:65
+#: View/Documents/add.ctp:57;58
+#: View/Documents/edit.ctp:40;41
+#: View/Documents/index.ctp:26;56;57
+#: View/DocumentsComissions/index.ctp:32;57;58
+#: View/Employees/view.ctp:87
+#: View/PaymentMethods/view.ctp:63
+msgid "seller_id"
+msgstr ""
+
+#: View/Clients/view.ctp:37
+#: View/Documents/add.ctp:7;11
+#: View/Documents/edit.ctp:7;11
+#: View/Documents/index.ctp:3;7
+#: View/Documents/view.ctp:3;7
+#: View/Elements/navbar-left.ctp:38;108;192
+#: View/PaymentMethods/view.ctp:27
+#: View/Sellers/view.ctp:29
+msgid "Documents"
+msgstr ""
+
+#: View/Clients/view.ctp:52
+#: View/Documents/view.ctp:60
+#: View/Employees/view.ctp:45
+#: View/Groups/view.ctp:38
+#: View/PaymentMethods/view.ctp:42
+#: View/Positions/view.ctp:34
+#: View/Sellers/view.ctp:44
+#: View/TableRates/view.ctp:41
+#: View/Users/view.ctp:57
+#: Plugin/admin/View/Groups/admin_index.ctp:12
+#: Plugin/admin/View/Users/admin_add.ctp:15
+#: Plugin/admin/View/Users/admin_edit.ctp:32
+#: Plugin/admin/View/Users/admin_index.ctp:32
+msgid "Name"
+msgstr ""
+
+#: View/Clients/view.ctp:56
+#: View/Sellers/view.ctp:48
+msgid "Sex"
+msgstr ""
+
+#: View/Clients/view.ctp:60
+#: View/Employees/view.ctp:53
+#: View/Sellers/view.ctp:52
+msgid "Date Birth"
+msgstr ""
+
+#: View/Clients/view.ctp:64
+#: View/Sellers/view.ctp:56
+#: View/Users/view.ctp:61
+msgid "Email"
+msgstr ""
+
+#: View/Clients/view.ctp:68
+#: View/Sellers/view.ctp:60
+msgid "Phone"
+msgstr ""
+
+#: View/Clients/view.ctp:72
+#: View/Sellers/view.ctp:64
+msgid "Phone 2"
+msgstr ""
+
+#: View/Clients/view.ctp:76
+#: View/Sellers/view.ctp:68
+msgid "Cep"
+msgstr ""
+
+#: View/Clients/view.ctp:80
+#: View/Sellers/view.ctp:72
+msgid "Address"
+msgstr ""
+
+#: View/Clients/view.ctp:84
+#: View/Sellers/view.ctp:76
+msgid "Neighborhood"
+msgstr ""
+
+#: View/Clients/view.ctp:88
+#: View/Sellers/view.ctp:80
+msgid "City"
+msgstr ""
+
+#: View/Clients/view.ctp:92
+#: View/Sellers/view.ctp:84
+msgid "Uf"
+msgstr ""
+
+#: View/Clients/view.ctp:96
+#: View/Positions/view.ctp:46
+msgid "Description"
+msgstr ""
+
+#: View/Clients/view.ctp:100
+#: View/Employees/view.ctp:49
+msgid "Cpf"
+msgstr ""
+
+#: View/Clients/view.ctp:104
+msgid "Rg"
+msgstr ""
+
+#: View/Clients/view.ctp:108
+#: View/Documents/view.ctp:56
+#: View/Sellers/add.ctp:4;8
+#: View/Sellers/edit.ctp:4;8
+#: View/Sellers/view.ctp:4;8;26
+msgid "Seller"
+msgstr ""
+
+#: View/Clients/view.ctp:118
+#: View/PaymentMethods/view.ctp:52
+#: View/Sellers/view.ctp:274
+msgid "Related Documents"
+msgstr ""
+
+#: View/Clients/view.ctp:136
+#: View/Documents/add.ctp:42
+#: View/Documents/edit.ctp:49
+#: View/Documents/index.ctp:29;65
+#: View/PaymentMethods/view.ctp:66
+#: View/Sellers/view.ctp:287
+msgid "date_document"
+msgstr ""
+
+#: View/Clients/view.ctp:137
+#: View/PaymentMethods/view.ctp:67
+#: View/Sellers/view.ctp:288
+msgid "descripition"
+msgstr ""
+
+#: View/Clients/view.ctp:139
+#: View/PaymentMethods/view.ctp:69
+#: View/Sellers/view.ctp:290
+msgid "attachment_cost"
+msgstr ""
+
+#: View/Clients/view.ctp:140
+#: View/PaymentMethods/view.ctp:70
+#: View/Sellers/view.ctp:291
+msgid "attachment_paid"
+msgstr ""
+
+#: View/Clients/view.ctp:141
+#: View/Documents/add.ctp:50
+#: View/Documents/edit.ctp:64
+#: View/Documents/index.ctp:39;75
+#: View/PaymentMethods/view.ctp:71
+#: View/Sellers/view.ctp:292
+msgid "barcode"
+msgstr ""
+
+#: View/Clients/view.ctp:142
+#: View/Documents/add.ctp:62
+#: View/Documents/edit.ctp:65
+#: View/Documents/index.ctp:40;76
+#: View/PaymentMethods/view.ctp:72
+#: View/Sellers/view.ctp:293
+msgid "date_paid"
+msgstr ""
+
+#: View/Clients/view.ctp:143
+#: View/Documents/add.ctp:63
+#: View/Documents/edit.ctp:66
+#: View/Documents/index.ctp:41;77
+#: View/PaymentMethods/view.ctp:73
+#: View/Sellers/view.ctp:294
+msgid "fl_paid"
+msgstr ""
+
+#: View/Clients/view.ctp:144
+#: View/Sellers/view.ctp:295
+msgid "attachment_card"
+msgstr ""
+
+#: View/ConvenienceDistribuitions/add.ctp:3;7
+#: View/ConvenienceDistribuitions/edit.ctp:3;7
+#: View/ConvenienceDistribuitions/index.ctp:3;7
+#: View/ConvenienceDistribuitions/view.ctp:3;7
+#: View/Conveniences/view.ctp:27
+#: View/Employees/view.ctp:27
+#: View/Sellers/view.ctp:28
+msgid "Convenience Distribuitions"
+msgstr ""
+
+#: View/ConvenienceDistribuitions/add.ctp:4;8
+#: View/ConvenienceDistribuitions/edit.ctp:4;8
+#: View/ConvenienceDistribuitions/view.ctp:4;8;26
+msgid "Convenience Distribuition"
+msgstr ""
+
+#: View/ConvenienceDistribuitions/add.ctp:27;28
+#: View/ConvenienceDistribuitions/edit.ctp:28;29
+#: View/ConvenienceDistribuitions/index.ctp:27;43;44
+#: View/Employees/view.ctp:88
+#: View/Sellers/view.ctp:226
+msgid "convenience_id"
+msgstr ""
+
+#: View/ConvenienceDistribuitions/add.ctp:30;31
+#: View/ConvenienceDistribuitions/edit.ctp:31;32
+#: View/ConvenienceDistribuitions/index.ctp:28;47;48
+#: View/Employees/add.ctp:44;45
+#: View/Employees/edit.ctp:44;45
+#: View/Employees/index.ctp:30;52;53
+#: View/Employees/view.ctp:212
+msgid "position_id"
+msgstr ""
+
+#: View/ConvenienceDistribuitions/view.ctp:45
+#: View/Conveniences/add.ctp:4;8
+#: View/Conveniences/edit.ctp:4;8
+#: View/Conveniences/view.ctp:4;8;26
+msgid "Convenience"
+msgstr ""
+
+#: View/ConvenienceDistribuitions/view.ctp:49
+#: View/Elements/navbar-left.ctp:227
+#: View/Employees/view.ctp:61
+#: View/Positions/add.ctp:4;8
+#: View/Positions/edit.ctp:4;8
+#: View/Positions/view.ctp:4;8;26
+msgid "Position"
+msgstr ""
+
+#: View/Conveniences/add.ctp:3;7
+#: View/Conveniences/edit.ctp:3;7
+#: View/Conveniences/index.ctp:3;7
+#: View/Conveniences/view.ctp:3;7
+#: View/Elements/navbar-left.ctp:230
+msgid "Conveniences"
+msgstr ""
+
+#: View/Conveniences/view.ctp:52
+#: View/Employees/view.ctp:75
+#: View/Sellers/view.ctp:213
+msgid "Related Convenience Distribuitions"
+msgstr ""
+
+#: View/Conveniences/view.ctp:64
+#: View/DocumentsComissions/index.ctp:31;53;54
+#: View/Employees/add.ctp:48;49
+#: View/Employees/edit.ctp:48;49
+#: View/Employees/index.ctp:31;56;57
+#: View/Positions/view.ctp:75
+#: View/Sellers/add.ctp:48;49
+#: View/Sellers/edit.ctp:49;50
+#: View/Sellers/index.ctp:30;56;57
+#: View/Sellers/view.ctp:225
+msgid "employee_id"
+msgstr ""
+
+#: View/Documents/add.ctp:38;39
+#: View/Documents/edit.ctp:37;38
+#: View/Documents/index.ctp:25;52;53
+#: View/PaymentMethods/view.ctp:62
+#: View/Sellers/view.ctp:284
+msgid "client_id"
+msgstr ""
+
+#: View/Documents/add.ctp:51
+#: View/Documents/index.ctp:33;69
+#: View/Rates/add.ctp:41
+#: View/Rates/edit.ctp:31
+#: View/Rates/index.ctp:28;46
+msgid "parcel_number"
+msgstr ""
+
+#: View/Documents/add.ctp:52
+msgid "value_month"
+msgstr ""
+
+#: View/Documents/add.ctp:52
+#: View/Documents/index.ctp:34;70
+msgid "value_pag"
+msgstr ""
+
+#: View/Documents/edit.ctp:53;54
+msgid "rate_id"
+msgstr ""
+
+#: View/Documents/index.ctp:34
+msgid "Value Pag"
+msgstr ""
+
+#: View/Documents/index.ctp:112
+msgid "Yes"
+msgstr ""
+
+#: View/Documents/index.ctp:114
+msgid "No"
+msgstr ""
+
+#: View/Documents/index.ctp:132
+msgid " Pay"
+msgstr ""
+
+#: View/Documents/index.ctp:168
+msgid "Finish Payment"
+msgstr ""
+
+#: View/Documents/index.ctp:179
+msgid "BankAccount"
+msgstr ""
+
+#: View/Documents/index.ctp:182
+msgid "value_paid"
+msgstr ""
+
+#: View/Documents/index.ctp:193
+#: View/DocumentsComissions/index.ctp:161
+msgid "Close"
+msgstr ""
+
+#: View/Documents/view.ctp:64
+msgid "Date Document"
+msgstr ""
+
+#: View/Documents/view.ctp:68
+msgid "Descripition"
+msgstr ""
+
+#: View/Documents/view.ctp:76
+msgid "Attachment Cost"
+msgstr ""
+
+#: View/Documents/view.ctp:80
+msgid "Attachment Paid"
+msgstr ""
+
+#: View/Documents/view.ctp:84
+msgid "Barcode"
+msgstr ""
+
+#: View/Documents/view.ctp:88
+msgid "Date Paid"
+msgstr ""
+
+#: View/Documents/view.ctp:92
+msgid "Fl Paid"
+msgstr ""
+
+#: View/Documents/view.ctp:96
+msgid "Attachment Card"
+msgstr ""
+
+#: View/DocumentsComissions/index.ctp:3;7
+#: View/Employees/view.ctp:28
+msgid "Documents Comissions"
+msgstr ""
+
+#: View/DocumentsComissions/index.ctp:15
+msgid "Venda Diaria"
+msgstr ""
+
+#: View/DocumentsComissions/index.ctp:16
+msgid "Venda Semanal"
+msgstr ""
+
+#: View/DocumentsComissions/index.ctp:17
+msgid "Venda Mensal"
+msgstr ""
+
+#: View/DocumentsComissions/index.ctp:18
+msgid "Venda Anual"
+msgstr ""
+
+#: View/DocumentsComissions/index.ctp:33;60
+#: View/Employees/view.ctp:148
+#: View/Positions/add.ctp:38
+#: View/Positions/edit.ctp:39
+#: View/Positions/index.ctp:28;43
+msgid "comission"
+msgstr ""
+
+#: View/DocumentsComissions/index.ctp:35;62
+#: View/Logs/index.ctp:29
+msgid "created"
+msgstr ""
+
+#: View/DocumentsComissions/index.ctp:138
+msgid "Report"
+msgstr ""
+
+#: View/DocumentsComissions/index.ctp:147
+msgid "week"
+msgstr ""
+
+#: View/DocumentsComissions/index.ctp:149
+msgid "months"
+msgstr ""
+
+#: View/DocumentsComissions/index.ctp:150
+msgid "year"
+msgstr ""
+
+#: View/DocumentsComissions/index.ctp:151
+#: Model/Document.php:validation for field date_document
+msgid "date"
+msgstr ""
+
+#: View/Elements/navbar-left.ctp:15
+msgid "Hello "
+msgstr ""
+
+#: View/Elements/navbar-left.ctp:23;58;142;273
+msgid "MAIN NAVIGATION"
+msgstr ""
+
+#: View/Elements/navbar-left.ctp:45;128;261;304
+msgid "Reports"
+msgstr ""
+
+#: View/Elements/navbar-left.ctp:51;134;267;310
+msgid "DocumentsComission"
+msgstr ""
+
+#: View/Elements/navbar-left.ctp:64;148
+#: View/Pages/home.ctp:2;8
+#: Plugin/admin/Controller/DashboardController.php:20
+msgid "Dashboard"
+msgstr ""
+
+#: View/Elements/navbar-left.ctp:71;155;277
+msgid "Registration"
+msgstr ""
+
+#: View/Elements/navbar-left.ctp:88;172;286
+#: View/Employees/view.ctp:30
+#: View/Sellers/add.ctp:3;7
+#: View/Sellers/edit.ctp:3;7
+#: View/Sellers/index.ctp:3;7
+#: View/Sellers/view.ctp:3;7
+msgid "Sellers"
+msgstr ""
+
+#: View/Elements/navbar-left.ctp:96;180
+#: View/Employees/add.ctp:3;7
+#: View/Employees/edit.ctp:3;7
+#: View/Employees/index.ctp:3;7
+#: View/Employees/view.ctp:3;7;29
+#: View/Positions/view.ctp:27
+msgid "Employees"
+msgstr ""
+
+#: View/Elements/navbar-left.ctp:116;200
+msgid "Finances"
+msgstr ""
+
+#: View/Elements/navbar-left.ctp:215
+msgid "Parameters"
+msgstr ""
+
+#: View/Elements/navbar-left.ctp:221
+msgid "Tables"
+msgstr ""
+
+#: View/Elements/navbar-left.ctp:224
+#: View/Rates/add.ctp:3;7
+#: View/Rates/edit.ctp:3;7
+#: View/Rates/index.ctp:3;7
+#: View/Rates/view.ctp:3;7
+msgid "Rates"
+msgstr ""
+
+#: View/Elements/navbar-left.ctp:233
+msgid "ConvenienceDistribuitions"
+msgstr ""
+
+#: View/Elements/navbar-left.ctp:239
+msgid "Configs"
+msgstr ""
+
+#: View/Elements/navbar-left.ctp:245
+#: View/Users/add.ctp:3;7
+#: View/Users/edit.ctp:3;7
+#: View/Users/index.ctp:3;7
+#: View/Users/view.ctp:3;7
+#: Plugin/admin/Controller/UsersController.php:28
+msgid "Users"
+msgstr ""
+
+#: View/Elements/navbar-left.ctp:248
+#: View/Groups/add.ctp:3;7
+#: View/Groups/edit.ctp:3;7
+#: View/Groups/index.ctp:3;7
+#: View/Groups/view.ctp:3;7
+#: Plugin/admin/Controller/GroupsController.php:21
+#: Plugin/admin/View/Users/admin_index.ctp:24
+msgid "Groups"
+msgstr ""
+
+#: View/Elements/navbar-left.ctp:251
+msgid "Access Control"
+msgstr ""
+
+#: View/Elements/navbar-left.ctp:254
+#: View/Logs/index.ctp:3;8
+#: Plugin/DebugKit/View/Elements/log_panel.ctp:19
+msgid "Logs"
+msgstr ""
+
+#: View/Elements/navbar-top.ctp:34
+msgid "Member since"
+msgstr ""
+
+#: View/Elements/navbar-top.ctp:44
+msgid "Profile"
+msgstr ""
+
+#: View/Elements/navbar-top.ctp:50
+msgid "Sign out"
+msgstr ""
+
+#: View/Employees/add.ctp:4;8
+#: View/Employees/edit.ctp:4;8
+#: View/Employees/view.ctp:4;8;26;65
+#: View/Sellers/view.ctp:88
+msgid "Employee"
+msgstr ""
+
+#: View/Employees/index.ctp:29;48;49
+#: View/Employees/view.ctp:211
+#: View/Logs/index.ctp:24
+#: View/Positions/view.ctp:74
+msgid "user_id"
+msgstr ""
+
+#: View/Employees/index.ctp:31
+msgid "Supervisor"
+msgstr ""
+
+#: View/Employees/view.ctp:57
+#: View/Users/add.ctp:4;8
+#: View/Users/edit.ctp:4;8
+#: View/Users/view.ctp:4;8;26
+msgid "User"
+msgstr ""
+
+#: View/Employees/view.ctp:136
+msgid "Related Documents Comissions"
+msgstr ""
+
+#: View/Employees/view.ctp:197
+#: View/Positions/view.ctp:60
+msgid "Related Employees"
+msgstr ""
+
+#: View/Employees/view.ctp:262
+msgid "Related Sellers"
+msgstr ""
+
+#: View/Employees/view.ctp:274
+#: View/Sellers/view.ctp:142
+msgid "sex"
+msgstr ""
+
+#: View/Employees/view.ctp:284
+#: View/Sellers/add.ctp:51
+#: View/Sellers/edit.ctp:52
+#: View/Sellers/index.ctp:31;59
+msgid "cnpj"
+msgstr ""
+
+#: View/Employees/view.ctp:285
+#: View/Sellers/add.ctp:52
+#: View/Sellers/edit.ctp:53
+#: View/Sellers/index.ctp:32;60
+msgid "bank_name"
+msgstr ""
+
+#: View/Employees/view.ctp:289
+#: View/Sellers/add.ctp:56
+#: View/Sellers/edit.ctp:57
+#: View/Sellers/index.ctp:36;64
+msgid "name_president"
+msgstr ""
+
+#: View/Employees/view.ctp:290
+#: View/Sellers/add.ctp:57
+#: View/Sellers/edit.ctp:58
+#: View/Sellers/index.ctp:37;65
+msgid "name_responsible"
+msgstr ""
+
+#: View/Employees/view.ctp:291
+#: View/Rates/add.ctp:37;38
+#: View/Rates/edit.ctp:27;28
+#: View/Rates/index.ctp:26;42;43
+#: View/Sellers/add.ctp:59;60
+#: View/Sellers/edit.ctp:60;61
+#: View/Sellers/index.ctp:38;67;68
+msgid "table_rate_id"
+msgstr ""
+
+#: View/Groups/add.ctp:4
+#: View/Groups/edit.ctp:4
+#: View/Groups/view.ctp:4
+#: View/Users/view.ctp:41
+#: Plugin/admin/View/Users/admin_add.ctp:3
+#: Plugin/admin/View/Users/admin_edit.ctp:20
+#: Plugin/admin/View/Users/admin_index.ctp:33
+msgid "Group"
+msgstr ""
+
+#: View/Groups/add.ctp:8
+msgid "Add Group"
+msgstr ""
+
+#: View/Groups/add.ctp:24
+#: View/Groups/edit.ctp:25
+#: View/Groups/index.ctp:25;35
+msgid "alias"
+msgstr ""
+
+#: View/Groups/edit.ctp:8
+msgid "Edit Group"
+msgstr ""
+
+#: View/Groups/view.ctp:8
+msgid "View Group"
+msgstr ""
+
+#: View/Groups/view.ctp:42
+msgid "Alias"
+msgstr ""
+
+#: View/Groups/view.ctp:60
+msgid "Related Users"
+msgstr ""
+
+#: View/Groups/view.ctp:70
+#: View/Users/add.ctp:23
+#: View/Users/edit.ctp:24
+#: View/Users/index.ctp:25;39
+#: Plugin/admin/View/Users/admin_login.ctp:11
+msgid "username"
+msgstr ""
+
+#: View/Groups/view.ctp:71
+#: View/Users/add.ctp:24
+#: View/Users/edit.ctp:25
+#: Plugin/admin/View/Users/admin_login.ctp:17
+msgid "password"
+msgstr ""
+
+#: View/Groups/view.ctp:72
+#: View/Users/add.ctp:25;26
+#: View/Users/edit.ctp:26;27
+#: View/Users/index.ctp:26;41;42
+msgid "group_id"
+msgstr ""
+
+#: View/Groups/view.ctp:73
+#: View/Users/add.ctp:28
+#: View/Users/edit.ctp:29
+#: View/Users/index.ctp:27;44
+#: Plugin/admin/View/Users/admin_add.ctp:67
+#: Plugin/admin/View/Users/admin_edit.ctp:71
+msgid "status"
+msgstr ""
+
+#: View/Groups/view.ctp:76
+#: View/Users/add.ctp:31
+#: View/Users/edit.ctp:32
+#: View/Users/index.ctp:30;47
+msgid "image"
+msgstr ""
+
+#: View/Logs/index.ctp:25
+msgid "model"
+msgstr ""
+
+#: View/Logs/index.ctp:26
+msgid "action"
+msgstr ""
+
+#: View/Logs/index.ctp:27
+msgid "old_data"
+msgstr ""
+
+#: View/Logs/index.ctp:28
+msgid "new_data"
+msgstr ""
+
+#: View/Logs/index.ctp:37
+msgid "All users"
+msgstr ""
+
+#: View/Logs/index.ctp:38
+msgid "All model"
+msgstr ""
+
+#: View/Logs/index.ctp:39
+msgid "All action"
+msgstr ""
+
+#: View/Logs/index.ctp:40
+msgid "All old_data"
+msgstr ""
+
+#: View/Logs/index.ctp:41
+msgid "All new_data"
+msgstr ""
+
+#: View/Logs/index.ctp:42
+msgid "All created"
+msgstr ""
+
+#: View/PaymentMethods/add.ctp:3;7
+#: View/PaymentMethods/edit.ctp:3;7
+#: View/PaymentMethods/index.ctp:3;7
+#: View/PaymentMethods/view.ctp:3;7
+msgid "Payment Methods"
+msgstr ""
+
+#: View/PaymentMethods/add.ctp:4;8
+#: View/PaymentMethods/edit.ctp:4;8
+#: View/PaymentMethods/view.ctp:4;8;26
+msgid "Payment Method"
+msgstr ""
+
+#: View/Positions/add.ctp:3;7
+#: View/Positions/edit.ctp:3;7
+#: View/Positions/index.ctp:3;7
+#: View/Positions/view.ctp:3;7
+msgid "Positions"
+msgstr ""
+
+#: View/Positions/view.ctp:50
+msgid "Comission"
+msgstr ""
+
+#: View/Rates/add.ctp:4;8
+#: View/Rates/edit.ctp:4;8
+#: View/Rates/view.ctp:4;8;26
+msgid "Rate"
+msgstr ""
+
+#: View/Rates/view.ctp:41
+#: View/Sellers/view.ctp:120
+#: View/TableRates/add.ctp:4;8
+#: View/TableRates/edit.ctp:4;8
+#: View/TableRates/view.ctp:4;8;26
+msgid "Table Rate"
+msgstr ""
+
+#: View/Rates/view.ctp:49
+msgid "Parcel Number"
+msgstr ""
+
+#: View/Sellers/view.ctp:92
+msgid "Cnpj"
+msgstr ""
+
+#: View/Sellers/view.ctp:96
+msgid "Bank Name"
+msgstr ""
+
+#: View/Sellers/view.ctp:112
+msgid "Name President"
+msgstr ""
+
+#: View/Sellers/view.ctp:116
+msgid "Name Responsible"
+msgstr ""
+
+#: View/Sellers/view.ctp:130
+msgid "Related Clients"
+msgstr ""
+
+#: View/TableRates/add.ctp:3;7
+#: View/TableRates/edit.ctp:3;7
+#: View/TableRates/index.ctp:3;7
+#: View/TableRates/view.ctp:3;7
+msgid "Table Rates"
+msgstr ""
+
+#: View/Users/view.ctp:33
+#: Plugin/admin/View/Users/admin_add.ctp:41
+#: Plugin/admin/View/Users/admin_edit.ctp:58
+#: Plugin/admin/View/Users/admin_index.ctp:35
+#: Plugin/admin/View/Users/admin_login.ctp:14
+msgid "Username"
+msgstr ""
+
+#: View/Users/view.ctp:37
+#: Plugin/admin/View/Users/admin_add.ctp:54
+#: Plugin/admin/View/Users/admin_login.ctp:20
+msgid "Password"
+msgstr ""
+
+#: View/Users/view.ctp:65
+msgid "Image"
+msgstr ""
+
+#: Model/BankFlow.php:validation for field value
+#: Model/ConvenienceDistribuition.php:validation for field value
+#: Model/Document.php:validation for field value
+#: Model/DocumentsComission.php:validation for field comission
+msgid "decimal"
+msgstr ""
+
+#: Model/Client.php:validation for field name;validation for field phone;validation for field cpf
+#: Model/Document.php:validation for field name
+#: Model/Employee.php:validation for field cpf
+#: Model/Group.php:validation for field name
+#: Model/Position.php:validation for field name
+#: Model/Seller.php:validation for field phone;validation for field cnpj
+#: Model/TableRate.php:validation for field name
+#: Model/User.php:validation for field username;validation for field password
+msgid "notBlank"
+msgstr ""
+
+#: Model/ConvenienceDistribuition.php:validation for field position_id
+#: Model/Document.php:validation for field client_id;validation for field seller_id;validation for field rate_id
+#: Model/DocumentsComission.php:validation for field document_id;validation for field seller_id;validation for field employee_id
+#: Model/Employee.php:validation for field position_id
+#: Model/Rate.php:validation for field table_rate_id
+#: Model/Seller.php:validation for field table_rate_id
+#: Model/User.php:validation for field group_id
+msgid "numeric"
+msgstr ""
+
+#: Model/Group.php:validation for field name
+msgid "isUnique"
+msgstr ""
+
+#: Plugin/DebugKit/Console/Command/BenchmarkShell.php:41
+msgid "-> Testing :url"
+msgstr ""
+
+#: Plugin/DebugKit/Console/Command/BenchmarkShell.php:67
+msgid "Total Requests made: :requests"
+msgstr ""
+
+#: Plugin/DebugKit/Console/Command/BenchmarkShell.php:68
+msgid "Total Time elapsed: :duration (seconds)"
+msgstr ""
+
+#: Plugin/DebugKit/Console/Command/BenchmarkShell.php:72
+msgid "Requests/Second: :rps req/sec"
+msgstr ""
+
+#: Plugin/DebugKit/Console/Command/BenchmarkShell.php:76
+msgid "Average request time: :average-time seconds"
+msgstr ""
+
+#: Plugin/DebugKit/Console/Command/BenchmarkShell.php:80
+msgid "Standard deviation of average request time: :std-dev"
+msgstr ""
+
+#: Plugin/DebugKit/Console/Command/BenchmarkShell.php:84
+msgid "Longest/shortest request: :longest sec/:shortest sec"
+msgstr ""
+
+#: Plugin/DebugKit/Console/Command/BenchmarkShell.php:134
+msgid "Allows you to obtain some rough benchmarking statisticsabout a fully qualified URL."
+msgstr ""
+
+#: Plugin/DebugKit/Console/Command/BenchmarkShell.php:139
+msgid "The URL to request."
+msgstr ""
+
+#: Plugin/DebugKit/Console/Command/BenchmarkShell.php:144
+msgid "Number of iterations to perform."
+msgstr ""
+
+#: Plugin/DebugKit/Console/Command/BenchmarkShell.php:148
+msgid "Maximum total time for all iterations, in seconds.If a single iteration takes more than the timeout, only one request will be made"
+msgstr ""
+
+#: Plugin/DebugKit/Console/Command/BenchmarkShell.php:152
+msgid "Example Use: `cake benchmark --n 10 --t 100 http://localhost/testsite`. <info>Note:</info> this benchmark does not include browser render times."
+msgstr ""
+
+#: Plugin/DebugKit/Controller/Component/ToolbarComponent.php:159
+msgid "Component initialization"
+msgstr ""
+
+#: Plugin/DebugKit/Controller/Component/ToolbarComponent.php:281
+msgid "Controller action"
+msgstr ""
+
+#: Plugin/DebugKit/Controller/Component/ToolbarComponent.php:284
+msgid "Controller action start"
+msgstr ""
+
+#: Plugin/DebugKit/Controller/Component/ToolbarComponent.php:304
+msgid "Processing toolbar state"
+msgstr ""
+
+#: Plugin/DebugKit/Controller/Component/ToolbarComponent.php:327
+msgid "Processing toolbar data"
+msgstr ""
+
+#: Plugin/DebugKit/Controller/Component/ToolbarComponent.php:362
+msgid "Controller render start"
+msgstr ""
+
+#: Plugin/DebugKit/Controller/Component/ToolbarComponent.php:446
+msgid "Could not load DebugToolbar panel %s"
+msgstr ""
+
+#: Plugin/DebugKit/Lib/DebugTimer.php:128
+msgid "Core Processing (Derived from $_SERVER[\"REQUEST_TIME\"])"
+msgstr ""
+
+#: Plugin/DebugKit/Lib/FireCake.php:310
+msgid "Headers already sent in %s on line %s. Cannot send log data to FirePHP."
+msgstr ""
+
+#: Plugin/DebugKit/Lib/FireCake.php:331
+msgid "Incorrect parameter count for FireCake::fb()"
+msgstr ""
+
+#: Plugin/DebugKit/Lib/FireCake.php:410
+msgid "Maximum number (99,999) of messages reached!"
+msgstr ""
+
+#: Plugin/DebugKit/View/Elements/debug_toolbar.ctp:23
+msgid "There are no active panels. You must enable a panel to see its output."
+msgstr ""
+
+#: Plugin/DebugKit/View/Elements/environment_panel.ctp:20
+msgid "App Constants"
+msgstr ""
+
+#: Plugin/DebugKit/View/Elements/environment_panel.ctp:36
+msgid "CakePHP Constants"
+msgstr ""
+
+#: Plugin/DebugKit/View/Elements/environment_panel.ctp:52
+msgid "PHP Environment"
+msgstr ""
+
+#: Plugin/DebugKit/View/Elements/environment_panel.ctp:70
+msgid "Hidef Environment"
+msgstr ""
+
+#: Plugin/DebugKit/View/Elements/history_panel.ctp:19
+msgid "Request History"
+msgstr ""
+
+#: Plugin/DebugKit/View/Elements/history_panel.ctp:21
+msgid "No previous requests logged."
+msgstr ""
+
+#: Plugin/DebugKit/View/Elements/history_panel.ctp:23
+msgid "previous requests available"
+msgstr ""
+
+#: Plugin/DebugKit/View/Elements/history_panel.ctp:25
+msgid "Restore to current request"
+msgstr ""
+
+#: Plugin/DebugKit/View/Elements/include_panel.ctp:19
+msgid "Included Files"
+msgstr ""
+
+#: Plugin/DebugKit/View/Elements/log_panel.ctp:27
+msgid "Time"
+msgstr ""
+
+#: Plugin/DebugKit/View/Elements/log_panel.ctp:27
+#: Plugin/DebugKit/View/Elements/timer_panel.ctp:42;66
+msgid "Message"
+msgstr ""
+
+#: Plugin/DebugKit/View/Elements/log_panel.ctp:38
+msgid "There were no log entries made this request"
+msgstr ""
+
+#: Plugin/DebugKit/View/Elements/request_panel.ctp:19
+msgid "Request"
+msgstr ""
+
+#: Plugin/DebugKit/View/Elements/request_panel.ctp:27
+msgid "No post data."
+msgstr ""
+
+#: Plugin/DebugKit/View/Elements/request_panel.ctp:36
+msgid "No querystring data."
+msgstr ""
+
+#: Plugin/DebugKit/View/Elements/request_panel.ctp:49
+msgid "Current Route"
+msgstr ""
+
+#: Plugin/DebugKit/View/Elements/session_panel.ctp:19
+msgid "Session"
+msgstr ""
+
+#: Plugin/DebugKit/View/Elements/sql_log_panel.ctp:24
+msgid "Sql Logs"
+msgstr ""
+
+#: Plugin/DebugKit/View/Elements/sql_log_panel.ctp:39
+msgid "No query logs when debug < 2."
+msgstr ""
+
+#: Plugin/DebugKit/View/Elements/sql_log_panel.ctp:41
+msgid "No query logs."
+msgstr ""
+
+#: Plugin/DebugKit/View/Elements/sql_log_panel.ctp:58
+msgid "Total Time: %s ms <br />Total Queries: %s queries"
+msgstr ""
+
+#: Plugin/DebugKit/View/Elements/sql_log_panel.ctp:67
+msgid "%s duplicate queries run."
+msgstr ""
+
+#: Plugin/DebugKit/View/Elements/sql_log_panel.ctp:70
+msgid "Query Explain:"
+msgstr ""
+
+#: Plugin/DebugKit/View/Elements/sql_log_panel.ctp:73
+msgid "Click an \"Explain\" link above, to see the query explanation."
+msgstr ""
+
+#: Plugin/DebugKit/View/Elements/sql_log_panel.ctp:79
+msgid "No active database connections"
+msgstr ""
+
+#: Plugin/DebugKit/View/Elements/timer_panel.ctp:35
+msgid "Memory"
+msgstr ""
+
+#: Plugin/DebugKit/View/Elements/timer_panel.ctp:38
+msgid "Peak Memory Use"
+msgstr ""
+
+#: Plugin/DebugKit/View/Elements/timer_panel.ctp:42
+msgid "Memory use"
+msgstr ""
+
+#: Plugin/DebugKit/View/Elements/timer_panel.ctp:55
+msgid "Timers"
+msgstr ""
+
+#: Plugin/DebugKit/View/Elements/timer_panel.ctp:57
+msgid "%s (ms)"
+msgstr ""
+
+#: Plugin/DebugKit/View/Elements/timer_panel.ctp:58
+msgid "Total Request Time:"
+msgstr ""
+
+#: Plugin/DebugKit/View/Elements/timer_panel.ctp:67
+msgid "Time in ms"
+msgstr ""
+
+#: Plugin/DebugKit/View/Elements/timer_panel.ctp:68
+msgid "Graph"
+msgstr ""
+
+#: Plugin/DebugKit/View/Elements/variables_panel.ctp:19
+msgid "View Variables"
+msgstr ""
+
+#: Plugin/DebugKit/View/Helper/DebugTimerHelper.php:45
+msgid "Rendering View"
+msgstr ""
+
+#: Plugin/DebugKit/View/Helper/DebugTimerHelper.php:60
+msgid "Rendering %s"
+msgstr ""
+
+#: Plugin/DebugKit/View/Helper/DebugTimerHelper.php:86
+msgid "View render complete"
+msgstr ""
+
+#: Plugin/DebugKit/View/Helper/HtmlToolbarHelper.php:230
+msgid "Explain"
+msgstr ""
+
+#: Plugin/DebugKit/View/Helper/SimpleGraphHelper.php:80
+msgid "Starting %sms into the request, taking %sms"
+msgstr ""
+
+#: Plugin/DebugKit/View/Helper/TidyHelper.php:99
+msgid "No markup errors found"
+msgstr ""
+
+#: Plugin/DebugKit/View/Helper/ToolbarHelper.php:190
+msgid "maybe slow"
+msgstr ""
+
+#: Plugin/DebugKit/Console/Command/WhitespaceShell.php:90
+msgid "Absolute path or relative to APP."
+msgstr ""
+
+#: Plugin/admin/Controller/GroupsController.php:45
+msgid "Group created."
+msgstr ""
+
+#: Plugin/admin/Controller/GroupsController.php:61
+#: Plugin/admin/Controller/UsersController.php:67;125
+msgid "Invalid ID"
+msgstr ""
+
+#: Plugin/admin/Controller/GroupsController.php:68
+msgid "The Group was saved."
+msgstr ""
+
+#: Plugin/admin/Controller/GroupsController.php:86
+msgid "Invalid ID."
+msgstr ""
+
+#: Plugin/admin/Controller/GroupsController.php:91
+msgid "The user was deleted."
+msgstr ""
+
+#: Plugin/admin/Controller/PermissionsController.php:40
+#: Plugin/admin/View/Users/admin_index.ctp:15
+msgid "Permissions"
+msgstr ""
+
+#: Plugin/admin/Controller/PermissionsController.php:167
+msgid "All Controllers was sincronized."
+msgstr ""
+
+#: Plugin/admin/Controller/UsersController.php:51
+msgid "User saved."
+msgstr ""
+
+#: Plugin/admin/Controller/UsersController.php:72
+msgid "User was saved."
+msgstr ""
+
+#: Plugin/admin/Controller/UsersController.php:130
+msgid "password was saved."
+msgstr ""
+
+#: Plugin/admin/Controller/UsersController.php:144
+msgid "Invalid ID!"
+msgstr ""
+
+#: Plugin/admin/Controller/UsersController.php:148
+msgid "User was deleted."
+msgstr ""
+
+#: Plugin/admin/Controller/Component/AclPermissionsComponent.php:98
+msgid "You have no authority to access this router."
+msgstr ""
+
+#: Plugin/admin/View/Groups/admin_add.ctp:3
+#: Plugin/admin/View/Groups/admin_edit.ctp:6
+msgid "Name:"
+msgstr ""
+
+#: Plugin/admin/View/Groups/admin_add.ctp:17
+#: Plugin/admin/View/Groups/admin_edit.ctp:20
+#: Plugin/admin/View/Users/admin_add.ctp:85
+#: Plugin/admin/View/Users/admin_edit.ctp:89
+#: Plugin/admin/View/Users/admin_reset_password.ctp:32
+msgid "Save"
+msgstr ""
+
+#: Plugin/admin/View/Permissions/admin_index.ctp:25
+msgid "Section"
+msgstr ""
+
+#: Plugin/admin/View/Permissions/admin_index.ctp:71
+msgid "alowed"
+msgstr ""
+
+#: Plugin/admin/View/Permissions/admin_index.ctp:79
+msgid "denied"
+msgstr ""
+
+#: Plugin/admin/View/Permissions/admin_index.ctp:88
+msgid "allowed"
+msgstr ""
+
+#: Plugin/admin/View/Users/admin_add.ctp:77
+#: Plugin/admin/View/Users/admin_edit.ctp:81
+msgid "Unactive"
+msgstr ""
+
+#: Plugin/admin/View/Users/admin_edit.ctp:4
+msgid "Reset password"
+msgstr ""
+
+#: Plugin/admin/View/Users/admin_login.ctp:24
+msgid "Login"
+msgstr ""
+
+#: Plugin/admin/View/Users/admin_reset_password.ctp:7
+msgid "Password:"
+msgstr ""
+
+#: Plugin/admin/View/Users/admin_reset_password.ctp:19
+msgid "Password again:"
+msgstr ""
+
+#: Plugin/admin/View/Layouts/admin.ctp:19
+#: View/Layouts/default.ctp:17
+#: View/Layouts/error.ctp:17
+msgid "CakePHP: the rapid development php framework"
+msgstr ""
+
+#: Plugin/admin/View/Layouts/admin.ctp:20
+#: View/Layouts/default.ctp:18
+msgid "CakePHP %s"
+msgstr ""
+
+#: webroot/test.php:103
+msgid "Debug setting does not allow access to this url."
+msgstr ""
+
+#: View/Errors/error400.ctp:19
+#: View/Errors/error500.ctp:19
+msgid "Error"
+msgstr ""
+
+#: View/Errors/error400.ctp:21
+msgid "The requested address %s was not found on this server."
+msgstr ""
+
+#: View/Errors/error500.ctp:20
+msgid "An Internal Error Has Occurred."
+msgstr ""
+

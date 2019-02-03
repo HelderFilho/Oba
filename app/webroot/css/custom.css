@@ -1,0 +1,16 @@
+.required label:after {
+    content: "*";
+    color: red;
+}
+
+.switchery {
+    margin-right: 8px;
+    margin-top: 25px;
+    vertical-align: sub;
+}
+
+.error-message {
+    color: red;
+    font-size: 11px;
+    margin-top: 2px;
+}
